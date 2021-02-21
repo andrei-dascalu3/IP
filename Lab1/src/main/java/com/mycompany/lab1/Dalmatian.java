@@ -1,17 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.lab1;
 
-/**
- *
- * @author Andrei
- */
 public class Dalmatian extends Dog {
 
+    public void age()
+    {
+        System.out.println("45 canine years or 7 hooman years");
+    }
     public void eats(String food) {
-        System.out.println("It eats "+food+".\n");
+        System.out.println("It eats "+food+".");
+    }
+    public void needs()
+    {
+        System.out.println("Poops 2 times a day");
+    }
+    public void needs(String vitamins)
+    {
+        System.out.println("Dalmatians need lots of vitamin "+vitamins);
     }
 }
