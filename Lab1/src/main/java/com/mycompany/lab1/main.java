@@ -6,6 +6,7 @@ Clasa main in care sunt create obiectele  si afisate informatii despre conceptel
 Clasa Animal constituie interfata
 
 ->Clasa Dalmatian mostenteste clasa Animal si este de asemenea o clasa abstracta
+->Implementeza polimorfismul dinamic prin suprascriere metodei age
 -> Polimorfismul(static) este integrat in aceasta clasa prin metodele needs() si needs(String )
 
 Clasa Dog mosteneste clasa Animal
