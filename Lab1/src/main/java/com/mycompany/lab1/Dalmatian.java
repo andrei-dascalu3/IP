@@ -1,7 +1,13 @@
 package com.mycompany.lab1;
 
+/*
+->Clasa Dalmatian mostenteste clasa Animal si este de asemenea o clasa abstracta
+->Implementeza polimorfismul dinamic prin suprascriere metodei age
+-> Polimorfismul(static) este integrat in aceasta clasa prin metodele needs() si needs(String )
+*/
 public class Dalmatian extends Dog {
 
+     @Override
     public void age()
     {
         System.out.println("45 canine years or 7 hooman years");
